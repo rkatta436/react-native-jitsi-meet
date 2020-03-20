@@ -36,10 +36,12 @@ android {
 }
 
 repositories {
-  maven {
-      url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
-      //url "https://github.com/rkatta436/jitsi-maven-repository/tree/master/releases"
-  }
+  // maven {
+  //     url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+  //     //url "https://github.com/rkatta436/jitsi-maven-repository/tree/master/releases"
+  // }
+  // maven { url "file:/Users/repletehealth/Desktop/work/local/repo" }
+  maven { url "https://github.com/rkatta436/jitsi-maven-repository/tree/master/releases" }
   google()
   mavenCentral()
   jcenter()
